@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<body>
+<div id="old-map">
+    <img id="old-map-background-background"
+         src="https://www.dropbox.com/s/x3d6i7atw58ke3x/old-map-background.jpg?raw=1"/>
+
+    <div id="old-map-container">
+        <header>
+            <img id="old-map-background" src="https://www.dropbox.com/s/0x3i7ah1c7880r1/oldMap.jpg?raw=1"/>
+        </header>
+
+        <div class="container">
+
+            <div class="card " id="kootenay-plains">
+                <div class="border"></div>
+                <img src="https://www.dropbox.com/s/x6vh3db5vex41uc/east-sentinel-mountain.jpg?raw=1"/>
+                <div>
+                <h1 class="card-title">Kootenay Plains</h1>
+                </div>
+            </div>
+
+            <div class="card " id="abraham-flats">
+                <div class="border"></div>
+                <img src="https://www.dropbox.com/s/7hs2ale5to7cp8y/abraham-flats.jpg?raw=1"/>
+                <h1 class="card-title">Abraham Flats</h1>
+            </div>
+
+
+            <div class="card " id="windy-point">
+                <div class="border"></div>
+                <img src="https://www.dropbox.com/s/2urs9jjy56xyf4x/old-windy-point.jpg?raw=1"/>
+                <h1 class="card-title">Windy Point</h1>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div id="new-map">
+    <div id="new-map-container">
+        <header>
+            <img id="new-map-background" src="https://www.dropbox.com/s/akepdp92620y5p4/new-map.jpg?raw=1"/>
+        </header>
+
+        <div class="container">
+
+            <div class="card " id="new-kootenay-plains">
+                <div class="border"></div>
+                <img src="https://www.dropbox.com/s/saxfoqy9xgnqzby/new-kootenay-plains.jpg?raw=1"/>
+                <h1 class="card-title">Kootenay Plains</h1>
+            </div>
+
+
+            <div class="card " id="new-windy-point">
+                <div class="border"></div>
+                <img src="https://www.dropbox.com/s/b26k8r38kaehq0r/windy-point.JPG?raw=1"/>
+                <h1 class="card-title">Windy Point</h1>
+            </div>
+
+            <div class="card " id="bighorn-dam">
+                <div class="border"></div>
+                <img src="https://www.dropbox.com/s/k8lo5t37sxgu67n/bighorn-dam.JPG?raw=1"/>
+                <h1 class="card-title">Bighorn Dam</h1>
+            </div>
+
+            <div class="card " id="abraham-lake">
+                <div class="border"></div>
+                <img src="https://www.dropbox.com/s/ft6wns64gwzi9l3/abraham-lake.jpg?raw=1"/>
+                <h1 class="card-title">Abraham Lake</h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+<label class="switch" id="map-selector">
+    <input type="checkbox" onclick="toggleMap()" id="mapchecked">
+    <span class="slider round"></span>
+</label>
+
+<div class="card " id="credits">
+    <div class="border"></div>
+    <img src="https://www.dropbox.com/s/4rnh3ns4aa479ax/credits.jpg?raw=1"/>
+    <h1 class="card-title">Credits</h1>
+</div>
+
+<div id="cover" class="cover"></div>
+
+<div id="open-content" class="open-content">
+    <a href="#" id="close-content" class="close-content"><span class="x-1"></span><span class="x-2"></span></a>
+    <img id="open-content-image" src=""/>
+    <div class="text" id="open-content-text">
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
